@@ -1,0 +1,143 @@
+*{
+  color: seashell;
+  font-family: Helvetica;
+  text-align: center;
+  font-size: 22px;
+}
+
+body{
+  opacity: 0.9;
+}
+
+body, .header, .address, #mission{
+  background-color: black;
+}
+
+h2{
+  font-size: 33px;
+}
+
+.header{
+  top: 0;
+  left: 0;
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  border-bottom: 1px solid seashell;
+}
+
+#menu{
+  display: inline-block;
+  float: right;
+  }
+
+#menu li{
+    list-style-type: none;
+    text-decoration: underline;
+    display: inline;
+    margin: 0px 10px;
+}
+
+#logo{
+  display: inline-block;
+  float: left;
+}
+
+#logo img{
+  height: 50px;
+  margin: 10px 0px 0px 10px;
+}
+
+.missionimage{
+  height: 700px;
+  width: 1200px;
+  background-image: url("./../images/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 69px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mission{
+  width: 1200px;
+  justify-content: center;
+}
+
+.month{
+  margin: 80px auto;
+  width: 100%;
+  width: 1000px;
+}
+
+.month img{
+  height: 200px;
+  width: 300px;
+}
+
+.firstrow{
+  display: flex;
+  justify-content: space-around;
+}
+
+.secondrow{
+  display: flex;
+  justify-content: center;
+}
+
+.secondrow div{
+  margin-right: 35px;
+}
+
+.firstrow h4, .secondrow h4{
+  margin-top: 10px;
+}
+
+.location{
+  background-image: url("./../images/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+#locationtitle{
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.boxes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 980px;
+  height: 300px;
+  justify-content: space-between;
+}
+
+.address{
+  width: 300px;
+  height: 300px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer{
+  top: 100px;
+  height: 200px;
+}
+
+.copyright{
+  margin-left: 20px;
+  width: 100%;
+  text-align: left !important;
+}
